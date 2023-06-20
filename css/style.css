@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(9, 100, 96);
+    font-family:'Noto Sans', sans-serif;
+} 
+
+.container{
+    
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titulo{
+   
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titulo > h1{
+    color:rgb(1, 29, 39);
+    font-size: 30px;
+    
+}
+
+img{
+    width: 30vw;
+}
+.login{
+    
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.card-login{
+    background-color: antiquewhite;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 35px;
+    background-color: rgb(45, 33, 51);
+    border-radius: 20px;
+    box-shadow: 0px 20px 50px rgb(56, 54, 54);
+}
+
+.card-login > h1{
+    color: rgb(7, 209, 165);
+    font-weight: 800;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.card-login > label{
+    color:#f0ffffde;
+    font-size: 15px;
+    box-shadow: 0px 20px 50px rgb(56, 54, 54);
+    margin-bottom: 10px;
+    
+}
+
+.card-login > input{
+    padding: 10px;
+    margin-bottom:10px;
+    background-color: antiquewhite;
+
+    
+}
+
+.cadastro{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: end;
+
+}
+
+@media  (max-width:950px){
+    .login{
+        width: 85%;
+    }
+
+}
+
+@media (max-width:769px){
+    main{
+       flex-direction: column;
+    }
+
+    img{
+       width: 100%;
+    }
+
+    .card-login{
+        width: 100%;
+        height: auto;
+    }
+}
+@media (max-width:769px){
+    .titulo > h1{
+        display: none;
+    }
+    img{
+        height:auto;
+    }
+    
+    
+}
+
+
+@media(max-width:376px ){
+    .titulo > h1{
+        display: none;
+        
+    }
+
+    .card-login{
+        margin-bottom: 10px;
+        
+    }
+
+}
+
+@media(max-height:668px){
+    .login{
+        width: 100%;
+    }
+}
