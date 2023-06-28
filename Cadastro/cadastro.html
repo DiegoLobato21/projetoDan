@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="../css/cadastro.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <h1>Cadastre-se e Entre para o nosso time</h1>
+    
+    <div id="container">
+        <form id="cadastro">
+            
+            <div class="display">
+                <div >
+                        <label>Nome : </label>
+                        <input type="text" placeholder="Nome" class="form-control"> 
+                </div>
+
+                <div >
+                        <label>sobrenome:</label>
+                        <input type="text" placeholder="Sobrenome" class="form-control"> 
+                </div>
+            </div>
+            
+            <div class="display">
+                <div>
+                    <label>Idade:</label>
+                    <input type="text" placeholder="Idade" class="form-control">
+                </div>    
+                <div>
+                    <label>Data de Aniversário:</label>
+                    <input type="date" placeholder="Data de Aniversário" class="form-control">
+                </div>
+            </div>
+            
+            <div class="display">
+                <div>
+                    <label>CPF:</label>
+                    <input type="text" placeholder="CPF" class="form-control">
+                </div>
+                <div>
+                    <label>Telefone:</label>
+                    <input type="text" placeholder="Telefone" class="form-control">
+                </div>
+            </div>
+
+            <div class="display">
+                <div id="endereco">
+                    <div >
+                        <label>cep:</label>
+                        <input id="cep-width" type="text" placeholder="cep" class="form-control">
+                    </div>   
+                    <div class="endereco" > 
+                        <label>endereço:</label>
+                        <input type="text" placeholder="endereço" class="form-control">
+                    </div>
+                    <div class="endereco" > 
+                        <label>Número:</label>
+                        <input type="text" placeholder="Nº" class="form-control">
+                    </div>
+                </div>
+            </div>
+            
+            <label>E-mail:</label>
+                <input type="text" placeholder="E-ma" class="form-control">          
+            <label>Criar senha:</label>
+                <input type="password" placeholder="senha" class="form-control" >
+            <label>Confirmar senha:</label>
+                <input type="password" placeholder="confirmar senha" class="form-control">
+                <input id="botao" type="submit" value="Cadastrar" class="form-control">
+        </form>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,70 @@
+body{
+    background-color: rgb(177, 207, 206);
+}
+h1{
+    display: flex;
+    justify-content: center;
+    
+}
+#container{
+    color:white;
+}
+.display{
+
+    display: flex;
+    justify-content: space-between;
+    color: white;
+   
+    
+}
+.display > div{
+    width: 45%;
+    
+}
+
+#endereco{
+    display: flex;
+    width: 100%;
+    justify-content:space-between;
+
+
+    
+}
+
+#endereco > input{
+    width: 50%;
+
+}
+
+
+
+
+form > label{
+   
+    margin-top: 4px;
+}
+#cadastro > input{
+    
+    margin: auto;
+    margin-top: 10px;
+    border: hidden;
+}
+#cadastro > #botao{
+    width: 20%;
+    margin-top: 20px;
+    
+}
+#botao:hover{
+    background-color: rgb(15, 240, 221);
+}
+#cadastro{
+    margin: auto;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 35px;
+    background-color: rgb(45, 33, 51);
+    border-radius: 20px;
+    box-shadow: 0px 20px 50px rgb(56, 54, 54);
+}
+
